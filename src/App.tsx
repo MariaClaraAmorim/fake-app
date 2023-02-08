@@ -7,7 +7,7 @@ import { LayoutCat } from "./components/Layout/LayoutCat";
 import { LayoutRota } from "./components/Layout/LayoutRota";
 import { LayoutPerfil } from "./components/Layout/LayoutPerfil";
 
-import { LayoutPreview } from "./components/Layout/LayoutPreview";
+import React from "react";
 
 function App() {
   return (
@@ -24,7 +24,6 @@ function App() {
             path="/user/:userId/postrota/:postId"
             element={<LayoutRota />}
           />
-          <Route path="/preview" element={<LayoutPreview />} />
         </Routes>
       </BrowserRouter>
     </>

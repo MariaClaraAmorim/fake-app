@@ -3,6 +3,7 @@ import { Post } from "../../common/interfaces/Post";
 import { Container, IconUser, Nome, Texto, Infos, PostList } from "./styles";
 
 import { useEffect, useState } from "react";
+import React from "react";
 
 function PostMessage({ body, userId, id }: Post) {
   const [users, setUsers] = useState<InterfacePerfil>();

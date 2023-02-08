@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Post } from "../../common/interfaces/Post";
 import { PostMessage } from "../PostMessage";
 
-import { Container, Banner, TitlePage, IconAncora, Titulos } from "./styles";
+import { Banner, Container, IconAncora, TitlePage, Titulos } from "./styles";
 
 function HomePage({ title }: Post) {
   const [posts, setPosts] = useState<Post[]>([]);
